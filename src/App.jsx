@@ -4,9 +4,9 @@ import Navigation from "./Components/Navigation";
 
 const App = () => {
   return (
-    <div className="w-full h-full">
+    <div className="">
       <Navigation />
-      <main className="border-2 border-black mb-16 w-[90%] m-auto mt-2 ">
+      <main className="border-2 border-black mb-16 w-[90%] m-auto mt-2 overflow-x-hidden">
         <Content_header />
         <Contact_page />
       </main>
