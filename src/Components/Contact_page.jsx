@@ -7,7 +7,7 @@ const Contact_page = () => {
       <div className="flex ">
         {/* ----------------------------Contact form_page-------------------- */}
         <div className=" p-1 w-[50%]">
-          <p className="flex justify-between">
+          <p className="flex justify-between w-[22rem]">
             <button className="bg-black text-white rounded-sm text-base flex w-[10rem] h-[1.5rem] ml-2">
               <span className="pl-1 pt-[5px] pr-1">
                 <BiSolidMessageDetail />
@@ -22,7 +22,7 @@ const Contact_page = () => {
               via call
             </button>
           </p>
-          <button className="bg-white border-2 border-gray-400 text-black rounded-sm text-base flex w-[27.5rem] h-[1.6rem] mt-2 ml-2">
+          <button className="bg-white border-2 border-gray-400 text-black rounded-sm text-base flex w-[21.4rem] h-[1.6rem] mt-2 ml-2">
             <span className=" pt-[5px] pr-1 pl-32">
               <BiSolidMessageDetail />
             </span>
@@ -31,7 +31,7 @@ const Contact_page = () => {
 
           {/* ------------------------User Form-------------------- */}
           <form action="">
-            <p className="flex flex-col relative mt-[1rem]">
+            <p className="flex flex-col relative mt-[1rem] w-[22rem] ">
               <label
                 htmlFor="text"
                 className="absolute top-[-13px] left-2 bg-white h-[1.4rem]"
@@ -45,7 +45,7 @@ const Contact_page = () => {
               />
             </p>
 
-            <p className="flex flex-col relative mt-[1rem]">
+            <p className="flex flex-col relative mt-[1rem] w-[21.5rem] ">
               <label
                 htmlFor="email"
                 className="absolute top-[-13px] left-2 bg-white"
@@ -59,7 +59,7 @@ const Contact_page = () => {
               />
             </p>
 
-            <p className="flex flex-col relative mt-[1rem] ">
+            <p className="flex flex-col relative mt-[1rem] w-[21.5rem] ">
               <label
                 htmlFor="email"
                 className="absolute top-[-11px] left-2 bg-white text-base"
@@ -73,10 +73,10 @@ const Contact_page = () => {
               ></textarea>
             </p>
 
-            <p className="flex justify-end mt-3">
+            <p className="flex justify-end mt-3 w-[21.5rem]">
               <button
                 type="submit"
-                className="bg-black text-white p-1 rounded-md w-[7.25rem]"
+                className="bg-black text-white p-1 rounded-md w-[4rem]"
               >
                 Submit
               </button>
@@ -86,7 +86,11 @@ const Contact_page = () => {
 
         {/* ---------------------------------Contact-Page Images--------------------- */}
         <div className=" w-[50%]">
-        <img className="w-full h-72" src="../Images/Contact_women-image.svg" alt="image" />
+          <img
+            className="w-full h-72"
+            src="../Images/Contact_women-image.svg"
+            alt="image"
+          />
         </div>
       </div>
     </>
