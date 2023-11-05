@@ -22,8 +22,8 @@ const Contact_page = () => {
               via call
             </button>
           </p>
-          <button className="bg-white border-2 border-gray-400 text-black rounded-sm text-base flex w-[19rem] h-[1.5rem] mt-2 ml-2">
-            <span className=" pt-[5px] pr-1 pl-20">
+          <button className="bg-white border-2 border-gray-400 text-black rounded-sm text-base flex w-[27.5rem] h-[1.6rem] mt-2 ml-2">
+            <span className=" pt-[5px] pr-1 pl-32">
               <BiSolidMessageDetail />
             </span>
             via Email Form
@@ -31,7 +31,7 @@ const Contact_page = () => {
 
           {/* ------------------------User Form-------------------- */}
           <form action="">
-            <p className="flex flex-col relative mt-[1.2rem]">
+            <p className="flex flex-col relative mt-[1rem]">
               <label
                 htmlFor="text"
                 className="absolute top-[-13px] left-2 bg-white h-[1.4rem]"
@@ -45,7 +45,7 @@ const Contact_page = () => {
               />
             </p>
 
-            <p className="flex flex-col relative mt-[1.2rem]">
+            <p className="flex flex-col relative mt-[1rem]">
               <label
                 htmlFor="email"
                 className="absolute top-[-13px] left-2 bg-white"
@@ -59,7 +59,7 @@ const Contact_page = () => {
               />
             </p>
 
-            <p className="flex flex-col relative mt-[1.2rem] ">
+            <p className="flex flex-col relative mt-[1rem] ">
               <label
                 htmlFor="email"
                 className="absolute top-[-11px] left-2 bg-white text-base"
@@ -68,7 +68,7 @@ const Contact_page = () => {
               </label>
               <textarea
                 id="message"
-                rows="4"
+                rows="3"
                 className="block p-2.5 w-full text-sm text-gray-900 border-2 border-black "
               ></textarea>
             </p>
