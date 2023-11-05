@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="">
       <Navigation />
-      <main className="border-2 border-black mb-16 w-[90%] m-auto mt-2 overflow-x-hidden">
+      <main className="mb-16 w-[90%] m-auto">
         <Content_header />
         <Contact_page />
       </main>

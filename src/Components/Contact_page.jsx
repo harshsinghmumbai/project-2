@@ -6,16 +6,16 @@ const Contact_page = () => {
     <>
       <div className="flex ">
         {/* ----------------------------Contact form_page-------------------- */}
-        <div className=" p-3 w-[50%]">
+        <div className=" p-1 w-[50%]">
           <p className="flex justify-between">
-            <button className="bg-black text-white rounded-sm text-base flex w-[10rem] h-[1.5rem] mt-2 ml-2">
+            <button className="bg-black text-white rounded-sm text-base flex w-[10rem] h-[1.5rem] ml-2">
               <span className="pl-1 pt-[5px] pr-1">
                 <BiSolidMessageDetail />
               </span>
               via support chat
             </button>
 
-            <button className="bg-black text-white rounded-sm text-base flex w-[10rem] h-[1.5rem] mt-2 ml-2 ">
+            <button className="bg-black text-white rounded-sm text-base flex w-[10rem] h-[1.5rem] ml-2 ">
               <span className="pl-1 pt-[5px] pr-1 ml-10">
                 <FaPhone />
               </span>
