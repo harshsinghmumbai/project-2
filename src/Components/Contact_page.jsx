@@ -88,7 +88,7 @@ const Contact_page = () => {
         {/* ---------------------------------Contact-Page Images--------------------- */}
         <div className=" w-[80%]">
           <img
-            className="w-full h-[19rem] object-cover"
+            className="w-full h-[22rem] object-cover"
             src="../Images/Contact_women-image.svg"
             alt="image"
           />
