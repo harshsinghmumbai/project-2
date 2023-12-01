@@ -1,7 +1,7 @@
 const Content_header = () => {
   return (
     <>
-        <h1 className="text-4xl font-extrabold uppercase">Contact Us</h1>
+        <h1 className="text-5xl font-extrabold uppercase mb-2 mt-1">Contact Us</h1>
         <p>
           LET’S CONNECT: WE’RE HERE TO HELP, AND WE’D LOVE TO HEAR FROM YOU!
           WHETHER YOU HAVE A QUESTION, COMMENT, OR JUST WANT TO CHAT , YOU CAN
