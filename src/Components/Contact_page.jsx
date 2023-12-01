@@ -8,30 +8,31 @@ const Contact_page = () => {
         {/* ----------------------------Contact form_page-------------------- */}
         <div className=" p-1 w-[50%]">
           <p className="flex justify-between w-[22rem]">
-            <button className="bg-black text-white rounded-sm text-base flex w-[10rem] h-[1.5rem] ml-2">
+            <button className="bg-black text-white rounded-sm text-base flex w-[10rem] h-[1.5rem] ml-2 mt-2">
               <span className="pl-1 pt-[5px] pr-1">
                 <BiSolidMessageDetail />
               </span>
               via support chat
             </button>
 
-            <button className="bg-black text-white rounded-sm text-base flex w-[10rem] h-[1.5rem] ml-2 ">
+            <button className="bg-black text-white rounded-sm text-base flex w-[10rem] h-[1.5rem] ml-2 mt-2 ">
               <span className="pl-1 pt-[5px] pr-1 ml-10">
                 <FaPhone />
               </span>
               via call
             </button>
           </p>
-          <button className="bg-white border-2 border-gray-400 text-black rounded-sm text-base flex w-[21.4rem] h-[1.6rem] mt-2 ml-2">
-            <span className=" pt-[5px] pr-1 pl-32">
+
+          <button className="bg-white border-2 border-gray-400 text-black text-base flex w-[21.8rem] h-[1.9rem] mt-4 ml-2 rounded-xl hover:bg-blue-300 ">
+            <span className=" pt-[5px] pr-1 pl-24">
               <BiSolidMessageDetail />
             </span>
-            via Email Form
+            <span className="text-lg"> via Email Form</span>
           </button>
 
           {/* ------------------------User Form-------------------- */}
           <form action="">
-            <p className="flex flex-col relative mt-[1rem] w-[22rem] ">
+            <p className="flex flex-col relative mt-[1rem] w-[22rem]">
               <label
                 htmlFor="text"
                 className="absolute top-[-13px] left-2 bg-white h-[1.4rem]"
@@ -45,7 +46,7 @@ const Contact_page = () => {
               />
             </p>
 
-            <p className="flex flex-col relative mt-[1rem] w-[21.5rem] ">
+            <p className="flex flex-col relative mt-[2rem] w-[21.5rem] ">
               <label
                 htmlFor="email"
                 className="absolute top-[-13px] left-2 bg-white"
@@ -59,7 +60,7 @@ const Contact_page = () => {
               />
             </p>
 
-            <p className="flex flex-col relative mt-[1rem] w-[21.5rem] ">
+            <p className="flex flex-col relative mt-[2rem] w-[21.5rem] ">
               <label
                 htmlFor="email"
                 className="absolute top-[-11px] left-2 bg-white text-base"
