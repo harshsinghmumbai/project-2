@@ -1,6 +1,7 @@
-Project link is here:-https://contactpagebyharsh.netlify.app
+The project link is here:-https://contactpagebyharsh.netlify.app
 
-![Uploading Screenshot (168).png…]()
+ ![Uploading Screenshot (168).png…]()
+
 
 
 # React + Vite
